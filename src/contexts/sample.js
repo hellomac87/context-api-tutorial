@@ -7,7 +7,7 @@ const Context = createContext(); // Context 를 만든다.
 // Consumer 는 나중에 내보낼 때 편하도록 SampleConsumer 라고 설정.
 const { Provider, Consumer : SampleConsumer } = Context;
 
-class SampleConsumer extends Component {
+class SampleProvider extends Component {
     state = {
         value: '기본값입니다.'
     }
@@ -36,6 +36,6 @@ class SampleConsumer extends Component {
 
 // 내보내줍니다.
 export {
-    SampleProvider,
-    SampleConsumer,
+  SampleProvider,
+  SampleConsumer,
 };
