@@ -1,7 +1,8 @@
 # 리액트 16.3 에 소개된 새로워진 Context API 파헤치기
 
-[velopert 블로그 포스트](https://velopert.com/3606)
-[블로그 포스트 github repository](https://github.com/vlpt-playground/react-context-sample)
+> [velopert 블로그 포스트](https://velopert.com/3606)
+
+> [블로그 포스트 github repository](https://github.com/vlpt-playground/react-context-sample)
 
 ## `Context API`는 주로 어떤 용도로 사용될까?
 
