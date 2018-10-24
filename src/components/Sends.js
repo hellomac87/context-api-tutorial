@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { SampleConsumer } from '../contexts/sample';
+// import { SampleConsumer } from '../contexts/sample';
+import { useSample }from '../contexts/sample';
 
 class Sends extends Component {
     state = {
@@ -35,7 +36,7 @@ class Sends extends Component {
 }
 
 // :: Consumer를 사용하여 context 값을 전달해주는 컨테이너 컴포넌트
-
+/*
 const SendsContainer = () => (
     <SampleConsumer>
         {
@@ -48,5 +49,5 @@ const SendsContainer = () => (
         }
     </SampleConsumer>
 )
-
-export default SendsContainer;
+*/
+export default useSample(Sends);
